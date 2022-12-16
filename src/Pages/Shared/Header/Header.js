@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" variant="dark">
-        <Container>
+        <Container className="scrolled">
           <Navbar.Brand href="#" className="fontSize">
             𝕸𝖔𝖍𝖆𝖒𝖒𝖆𝖉 𝕬𝖑 𝕾𝖆𝖒𝖎𝖚𝖑
           </Navbar.Brand>
@@ -26,25 +26,25 @@ const Header = () => {
             </Nav>
             <Nav>
               <span className="navbar-text">
-                <div className="social-icon">
+                <div>
                   <a
                     href="https://www.linkedin.com/in/mohammad-al-samiul/"
                     target="_blank"
-                    className="spacing"
+                    className="spacing social-icon"
                     rel="noreferrer">
                     <img src={icon1} alt="" />
                   </a>
                   <a
                     href="https://www.facebook.com/alsamiul123/"
                     target="_blank"
-                    className="spacing"
+                    className="spacing social-icon"
                     rel="noreferrer">
                     <img src={icon2} alt="" />
                   </a>
                   <a
                     href="https://github.com/NoobCoder-404"
                     target="_blank"
-                    className="spacing "
+                    className="spacing social-icon"
                     rel="noreferrer">
                     <img src={icon3} alt="" />
                   </a>

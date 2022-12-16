@@ -9,9 +9,9 @@ const Home = () => {
       <Container>
         <Row className="align-items-center justify-content-between">
           <Col xs={12} md={6} xl={6} className="banner-padding">
-            <h1>Welcome to muy Portfolio</h1>
+            <h1 className="tagline">Welcome to muy Portfolio</h1>
             <h2 className="margin">
-              {`Hi I'm MOHAMMAD AL SAMIUL`} <br />
+              {`Hi, I'm Mohammad Al Samiul`} <br />
               <span>Front-End Developer</span>{' '}
             </h2>
             <p>

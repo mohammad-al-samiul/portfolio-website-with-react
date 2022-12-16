@@ -4,3 +4,15 @@
 .fontSize {
   font-size: 25px;
 }
+.navbar {
+  padding: 0 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  /* z-index: 0; */
+  transition: 0.32s ease-in-out;
+}
+.scrolled {
+  background-color: ;
+  margin: 10px 10px;
+}
