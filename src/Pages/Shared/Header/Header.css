@@ -2,20 +2,27 @@
   padding-right: 20px;
 }
 .fontSize {
-  font-size: 30px;
+  font-size: 25px;
 }
 .navbar {
-  padding: 0 0;
+  padding: 0;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 9999;
   transition: 0.32s ease-in-out;
+  /* background-color: #121212; */
 }
 .scrolled {
+  background-color: #121212;
+}
+.margins {
   margin: 10px 10px;
 }
 
 .open {
   background-color: #121212;
+}
+.padding {
+  padding-left: 15px;
 }

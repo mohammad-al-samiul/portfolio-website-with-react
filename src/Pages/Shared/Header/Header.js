@@ -1,5 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -10,13 +9,33 @@ import './Header.css';
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
   const handleToggleClick = () => {
     setOpen(!open);
   };
+
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" variant="dark" className={open ? 'open ' : ''}>
-        <Container className="scrolled">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        variant="dark"
+        className={(open ? 'open ' : '', scrolled ? 'scrolled' : '')}>
+        <Container className="margins">
           <Navbar.Brand href="#" className="fontSize">
             𝕸𝖔𝖍𝖆𝖒𝖒𝖆𝖉 𝕬𝖑 𝕾𝖆𝖒𝖎𝖚𝖑
           </Navbar.Brand>
@@ -26,7 +45,7 @@ const Header = () => {
             aria-controls="responsive-navbar-nav"
           />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="d-lg-flex justify-content-center m-auto">
+            <Nav className="d-lg-flex justify-content-center m-auto padding">
               <Nav.Link href="#home" onClick={handleToggleClick}>
                 Home
               </Nav.Link>
@@ -40,7 +59,7 @@ const Header = () => {
                 Contact Me
               </Nav.Link>
             </Nav>
-            <Nav>
+            <Nav className="padding">
               <span className="navbar-text">
                 <div>
                   <a

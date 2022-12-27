@@ -22,7 +22,7 @@ const Home = () => {
               Let's connect
             </Button>
           </Col>
-          <Col xs={12} md={6} xl={4} className="">
+          <Col xs={12} md={6} xl={4}>
             <img className="img-width" src={headerImg} alt="Header Img" />
           </Col>
         </Row>
