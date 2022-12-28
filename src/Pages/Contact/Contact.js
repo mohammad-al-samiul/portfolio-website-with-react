@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 import contactImg from '../../Assets/img/contact-img.svg';
 import './Contact.css';
 
@@ -31,9 +31,9 @@ const Contact = () => {
                     </Col>
                     <Col size={12} className="px-2">
                       <textarea rows="4" placeholder="Message"></textarea>
-                      <button type="submit">
-                        <span></span>
-                      </button>
+                      <Button className="button" variant="outline-light">
+                        Submit
+                      </Button>
                     </Col>
                   </Row>
                 </form>
