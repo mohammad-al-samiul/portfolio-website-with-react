@@ -28,6 +28,7 @@ body {
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
-.container {
-  padding: 0;
+.total-width {
+  width: 1440px;
+  margin: auto;
 }

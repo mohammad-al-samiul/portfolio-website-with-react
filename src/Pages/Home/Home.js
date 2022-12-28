@@ -9,12 +9,12 @@ const Home = () => {
       <Container>
         <Row className="align-items-center justify-content-between">
           <Col xs={12} md={6} xl={6} className="banner-padding">
-            <h1 className="tagline">Welcome to muy Portfolio</h1>
+            <h1 className="tagline">Welcome to My Portfolio</h1>
             <h2 className="margin">
-              {`Hi, I'm Mohammad Al Samiul`} <br />
-              <span>Front-End Developer</span>{' '}
+              {`Hi, This is Mohammad Al Samiul`} <br />
+              <span className="h4">Front-End Developer</span>{' '}
             </h2>
-            <p>
+            <p className="mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eligendi recusandae,
               natus ullam aliquam temporibus! Repellendus, fuga explicabo ullam necessitatibus.
             </p>

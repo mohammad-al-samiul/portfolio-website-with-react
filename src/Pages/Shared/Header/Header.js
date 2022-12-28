@@ -29,7 +29,7 @@ const Header = () => {
   };
 
   return (
-    <>
+    <div className="mx-auto">
       <Navbar
         collapseOnSelect
         expand="lg"
@@ -59,28 +59,19 @@ const Header = () => {
                 Contact Me
               </Nav.Link>
             </Nav>
-            <Nav className="padding">
-              <span className="navbar-text">
-                <div>
+            <Nav>
+              <span>
+                <div className="social-icon">
                   <a
                     href="https://www.linkedin.com/in/mohammad-al-samiul/"
                     target="_blank"
-                    className="spacing social-icon"
                     rel="noreferrer">
                     <img src={icon1} alt="" />
                   </a>
-                  <a
-                    href="https://www.facebook.com/alsamiul123/"
-                    target="_blank"
-                    className="spacing social-icon"
-                    rel="noreferrer">
+                  <a href="https://www.facebook.com/alsamiul123/" target="_blank" rel="noreferrer">
                     <img src={icon2} alt="" />
                   </a>
-                  <a
-                    href="https://github.com/NoobCoder-404"
-                    target="_blank"
-                    className="spacing social-icon"
-                    rel="noreferrer">
+                  <a href="https://github.com/NoobCoder-404" target="_blank" rel="noreferrer">
                     <img src={icon3} alt="" />
                   </a>
                 </div>
@@ -89,7 +80,7 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </>
+    </div>
   );
 };
 

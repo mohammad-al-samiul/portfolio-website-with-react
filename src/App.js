@@ -5,7 +5,7 @@ import { router } from './Routes/Routes';
 
 const App = () => {
   return (
-    <div className="container">
+    <div className=" container">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
