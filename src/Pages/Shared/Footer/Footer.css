@@ -36,3 +36,13 @@
 .social-icon a img {
   width: 40%;
 }
+
+@media screen and (min-width: 480px) {
+  .social-icon {
+    margin-top: 10px;
+    margin-left: 13px;
+  }
+  .image-logo {
+    width: 23%;
+  }
+}
