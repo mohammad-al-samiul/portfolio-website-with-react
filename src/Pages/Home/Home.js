@@ -3,6 +3,7 @@ import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import headerImg from '../../Assets/img/header-img.svg';
 import Contact from '../Contact/Contact';
+import Project from '../Project/Project';
 import Skills from '../Skills/Skills';
 import './Home.css';
 const Home = () => {
@@ -39,6 +40,9 @@ const Home = () => {
       </section>
       <div>
         <Skills />
+      </div>
+      <div>
+        <Project />
       </div>
       <div>
         <Contact />
