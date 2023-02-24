@@ -3,6 +3,7 @@ import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import headerImg from '../../Assets/img/header-img.svg';
 import Contact from '../Contact/Contact';
+import Skills from '../Skills/Skills';
 import './Home.css';
 const Home = () => {
   return (
@@ -20,9 +21,11 @@ const Home = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eligendi recusandae,
                 natus ullam aliquam temporibus! Repellendus, fuga explicabo ullam necessitatibus.
               </p>
-              <Button className="margin" variant="outline-light">
-                Let's connect
-              </Button>
+              <a className="link-design" href="">
+                <Button className="margin" variant="outline-light">
+                  Resume
+                </Button>
+              </a>
             </Col>
             <Col xs={12} md={6} xl={4}>
               <img className="img-width" src={headerImg} alt="Header Img" />
@@ -30,6 +33,9 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+      <div>
+        <Skills />
+      </div>
       <div>
         <Contact />
       </div>
