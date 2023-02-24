@@ -21,9 +21,13 @@ const Home = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eligendi recusandae,
                 natus ullam aliquam temporibus! Repellendus, fuga explicabo ullam necessitatibus.
               </p>
-              <a className="link-design" href="">
+              <a
+                target="_bl
+              "
+                className="link-design"
+                href="https://drive.google.com/file/d/160cEyaRDd6Oqf_3TFeOZaBrQ1aFWgEa5/view?usp=share_link">
                 <Button className="margin" variant="outline-light">
-                  Resume
+                  Download Resume
                 </Button>
               </a>
             </Col>

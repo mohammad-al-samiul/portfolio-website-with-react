@@ -72,7 +72,7 @@ const Header = () => {
                   <a href="https://www.facebook.com/alsamiul123/" target="_blank" rel="noreferrer">
                     <img src={icon2} alt="" />
                   </a>
-                  <a href="https://github.com/NoobCoder-404" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/mohammad-al-samiul" target="_blank" rel="noreferrer">
                     <img src={icon3} alt="" />
                   </a>
                 </div>
