@@ -19,8 +19,9 @@ const Home = () => {
                 <span className="h4">Front-End Developer</span>{' '}
               </h2>
               <p className="mt-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eligendi recusandae,
-                natus ullam aliquam temporibus! Repellendus, fuga explicabo ullam necessitatibus.
+                Hardworking and passionate job seeker with strong organizational skills eager to
+                secure entry-level junior front-end developer position. Ready to help team achieve
+                company goals.
               </p>
               <a
                 target="_bl
